@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: e025dfbb9b987eb499edb74fe7d2fb35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4579695677796994044
+    second: Fire Rune_0
+  - first:
+      213: -1143528664453504273
+    second: Fire Rune_1
+  - first:
+      213: -483055614670145655
+    second: Fire Rune_2
+  - first:
+      213: -133918511759753319
+    second: Fire Rune_3
+  - first:
+      213: 7973095614584263437
+    second: Fire Rune_4
+  - first:
+      213: 360310266594823195
+    second: Fire Rune_5
+  - first:
+      213: 5925405042424170093
+    second: Fire Rune_6
+  - first:
+      213: -6801874918848704839
+    second: Fire Rune_7
+  - first:
+      213: 4267816710987794203
+    second: Fire Rune_8
+  - first:
+      213: 2332297456690857435
+    second: Fire Rune_9
+  - first:
+      213: -8872230601695916338
+    second: Fire Rune_10
+  - first:
+      213: -6867604635080907266
+    second: Fire Rune_11
+  - first:
+      213: 8222992285514627364
+    second: Fire Rune_12
+  - first:
+      213: -4558902269651729930
+    second: Fire Rune_13
+  - first:
+      213: 1911393535996847634
+    second: Fire Rune_14
+  - first:
+      213: -5240471599649278029
+    second: Fire Rune_15
+  - first:
+      213: 4250830134088356500
+    second: Fire Rune_16
+  - first:
+      213: 250509945512392290
+    second: Fire Rune_17
+  - first:
+      213: -3574749802283135203
+    second: Fire Rune_18
+  - first:
+      213: 9153200922666910825
+    second: Fire Rune_19
+  - first:
+      213: -7700232435973338918
+    second: Fire Rune_20
+  - first:
+      213: -4322480290438111828
+    second: Fire Rune_21
+  - first:
+      213: 8005901261771529908
+    second: Fire Rune_22
+  - first:
+      213: -6787403921261888867
+    second: Fire Rune_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire Rune_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 212
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb4b7664f85e8f30800000000000000
+      internalID: 4579695677796994044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 234
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2a5c40dbe5120f0800000000000000
+      internalID: -1143528664453504273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 232
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987f3d05a77db49f0800000000000000
+      internalID: -483055614670145655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 226
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ff5b5b2d9342ef0800000000000000
+      internalID: -133918511759753319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_4
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 210
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03158bd73026ae60800000000000000
+      internalID: 7973095614584263437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 169
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c8f494744100500800000000000000
+      internalID: 360310266594823195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 191
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d664000fd744b3250800000000000000
+      internalID: 5925405042424170093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1
+        width: 270
+        height: 261
+      alignment: 9
+      pivot: {x: 0.4873437, y: 0.4870801}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be42679cc2ea91a0800000000000000
+      internalID: -6801874918848704839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 183
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1747e0dfa45a3b30800000000000000
+      internalID: 4267816710987794203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 138
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd50b980e2cfd5020800000000000000
+      internalID: 2332297456690857435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 158
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece809c56418fd480800000000000000
+      internalID: -8872230601695916338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 108
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef52d2478fd51b0a0800000000000000
+      internalID: -6867604635080907266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_12
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 129
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42970e89aefed1270800000000000000
+      internalID: 8222992285514627364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_13
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 78
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1cfa33a868bb0c0800000000000000
+      internalID: -4558902269651729930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_14
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 99
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216e1134b42a68a10800000000000000
+      internalID: 1911393535996847634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 55
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7b16768da1647b0800000000000000
+      internalID: -5240471599649278029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 68
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492dcde2c7bfdfa30800000000000000
+      internalID: 4250830134088356500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_17
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 32
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266f7fad77df97300800000000000000
+      internalID: 250509945512392290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_18
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 11
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f0402aeffe36ec0800000000000000
+      internalID: -3574749802283135203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964c6515eb3b60f70800000000000000
+      internalID: 9153200922666910825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_20
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 14
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad84ed5a567432590800000000000000
+      internalID: -7700232435973338918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_21
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 24
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad1fcbc3177304c0800000000000000
+      internalID: -4322480290438111828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_22
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be5ebec7ccaa1f60800000000000000
+      internalID: 8005901261771529908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Rune_23
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 8
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a7716481c4ec1a0800000000000000
+      internalID: -6787403921261888867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 27233fee242e33443be59b31d32c1046
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fire Rune_0: 4579695677796994044
+      Fire Rune_1: -1143528664453504273
+      Fire Rune_10: -8872230601695916338
+      Fire Rune_11: -6867604635080907266
+      Fire Rune_12: 8222992285514627364
+      Fire Rune_13: -4558902269651729930
+      Fire Rune_14: 1911393535996847634
+      Fire Rune_15: -5240471599649278029
+      Fire Rune_16: 4250830134088356500
+      Fire Rune_17: 250509945512392290
+      Fire Rune_18: -3574749802283135203
+      Fire Rune_19: 9153200922666910825
+      Fire Rune_2: -483055614670145655
+      Fire Rune_20: -7700232435973338918
+      Fire Rune_21: -4322480290438111828
+      Fire Rune_22: 8005901261771529908
+      Fire Rune_23: -6787403921261888867
+      Fire Rune_3: -133918511759753319
+      Fire Rune_4: 7973095614584263437
+      Fire Rune_5: 360310266594823195
+      Fire Rune_6: 5925405042424170093
+      Fire Rune_7: -6801874918848704839
+      Fire Rune_8: 4267816710987794203
+      Fire Rune_9: 2332297456690857435
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
