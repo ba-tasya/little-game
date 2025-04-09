@@ -75,5 +75,20 @@ public class InventoryManager : MonoBehaviour
             Debug.LogError($"Нет слота для предмета с категорией {category}");
         }
     }
+
+    public bool Contains(string category)
+    {
+        int slotIndex = tagToSlotMap[category];
+
+        // Если слот пустой, добавляем предмет в этот слот
+        if (inventoryItems[slotIndex] == null)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
 }
 

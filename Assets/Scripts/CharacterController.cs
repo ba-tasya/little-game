@@ -26,16 +26,24 @@ public class CharacterController : MonoBehaviour
     private float velocityXSmoothing;
     private bool isGrounded;
 
+    [Header("Спрайты для режимов управления")]
+    public Sprite platformerSprite;
+    public Sprite topDownSprite;
+    private SpriteRenderer spriteRenderer;
+
+    public enum ControlMode { Platformer, TopDown }
+    public ControlMode currentMode;
+
     /// <summary>
     /// Плавное горизонтальное перемещение с использованием SmoothDamp
     /// </summary>
-    void HandleMovement()
-    {
-        float input = Input.GetAxisRaw("Horizontal");
-        float targetVelocityX = input * moveSpeed;
-        float smoothedVelocityX = Mathf.SmoothDamp(rb.linearVelocity.x, targetVelocityX, ref velocityXSmoothing, smoothTime);
-        rb.linearVelocity = new Vector2(smoothedVelocityX, rb.linearVelocity.y);
-    }
+    // void HandleMovement()
+    // {
+    //     float input = Input.GetAxisRaw("Horizontal");
+    //     float targetVelocityX = input * moveSpeed;
+    //     float smoothedVelocityX = Mathf.SmoothDamp(rb.linearVelocity.x, targetVelocityX, ref velocityXSmoothing, smoothTime);
+    //     rb.linearVelocity = new Vector2(smoothedVelocityX, rb.linearVelocity.y);
+    // }
 
     /// <summary>
     /// Обработка прыжка с проверкой на землю
@@ -82,7 +90,9 @@ public class CharacterController : MonoBehaviour
 
     void Start()
     {
+        currentMode = ControlMode.Platformer;
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         if (hudManager == null)
         {
             hudManager = FindObjectOfType<HUDManager>();
@@ -95,12 +105,37 @@ public class CharacterController : MonoBehaviour
 
     void Update()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        if (currentMode == ControlMode.Platformer)
+        {
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+            HandleMovementPlatformer();
+            HandleJump();
+            ApplyBetterJumpGravity();
+            EnableGravityForPlatformer();
+        }
+        else if (currentMode == ControlMode.TopDown)
+        {
+            HandleMovementTopDown();
+            DisableGravityForTopDown();
+        }
 
-        HandleMovement();
-        HandleJump();
-        ApplyBetterJumpGravity();
         HandleInput();
+    }
+
+    private void HandleMovementPlatformer()
+    {
+        float input = Input.GetAxisRaw("Horizontal");
+        float targetVelocityX = input * moveSpeed;
+        float smoothedVelocityX = Mathf.SmoothDamp(rb.linearVelocity.x, targetVelocityX, ref velocityXSmoothing, smoothTime);
+        rb.linearVelocity = new Vector2(smoothedVelocityX, rb.linearVelocity.y);
+    }
+
+    private void HandleMovementTopDown()
+    {
+        float inputX = Input.GetAxisRaw("Horizontal");
+        float inputY = Input.GetAxisRaw("Vertical");
+        Vector2 movement = new Vector2(inputX, inputY).normalized * moveSpeed;
+        rb.linearVelocity = movement;
     }
 
     private void HandleInput()
@@ -126,6 +161,18 @@ public class CharacterController : MonoBehaviour
         {
             Debug.Log($"Использован предмет из слота {selectedSlot + 1}");
         }
+    }
+
+    private void DisableGravityForTopDown()
+    {
+        // Отключаем влияние гравитации для режима TopDown
+        rb.gravityScale = 0f;
+    }
+
+    private void EnableGravityForPlatformer()
+    {
+        // Включаем гравитацию обратно для платформенного режима
+        rb.gravityScale = 1f;
     }
 
     // private void HandleSlotSelection()
